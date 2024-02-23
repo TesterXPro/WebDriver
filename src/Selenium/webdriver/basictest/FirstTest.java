@@ -27,6 +27,7 @@ public class FirstTest {
 		Actions action = new Actions(driver);
 		
 		action.moveToElement(SignUp).click().build().perform();
+		System.out.println("passed");
 		
 		
 
